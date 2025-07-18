@@ -14,5 +14,6 @@ public class mainBankAcc {
 		bankAcc.setCanoneAnnuo(50);
 
 		System.out.println("Saldo finale: " + bankAcc.getSaldoFinale());
+		System.out.println("ciao"); 
 	}
 }

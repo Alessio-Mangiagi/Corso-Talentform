@@ -55,5 +55,6 @@ public class BankAcc {
 
 	public int getSaldoFinale() {
 		return bilancio - impostaBollo - canoneAnnuo;
+		
 	}
 }
