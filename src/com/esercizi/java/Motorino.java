@@ -41,10 +41,16 @@ public class Motorino {
 
 
 
+	public void setVelocità(float velocità) {
+		this.velocità = velocità;
+	}
+
+
+
 	@Override
 	public String toString() {
 		return "Motorino [colore=" + colore + ", velocità=" + velocità + ", tipo=" + tipo + ", antifurto=" + antifurto
-				+"]";
+				+ "]";
 	}
 	
 	
